@@ -15,7 +15,7 @@
 ## 7. Fully Responsive And Custom UI
 ## 8. User Search Functionality with `Firebase Query`
 
-# App Demo
+# App URL - https://next-twitter-v-01.vercel.app/
 
 ![image](/app_Images/next-twitter.png)
 ![image](/app_Images/next-twitter-2.png)
