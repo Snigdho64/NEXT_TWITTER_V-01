@@ -1,23 +1,25 @@
-# Next.js + Tailwind CSS Example
+# NEXTjs Twitter Clone [Custom Design Social Media App](https://twitter.com/)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# This project uses the `NEXTjs+Typescript+Tailwind+Firebase` to build a fullstack `Social Media Application`
 
-## Deploy your own
+### The Core Design was based on twitter's UI design
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# App Functionality includes -
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 1. `Next-Auth` Authentication with Google and Github Providers
 
-## How to use
+## 2. `Firebase Storage` to store images, users and post information
+## 3. Ability to `post`,`like`,`comment`,`delete(own)` and `save` posts in realtime with firestore database.
+## 4. Ability To `Follow` and `Unfollow` users with realtime updates.
+## 6. `Multiple Pages` for with `Sidebar` Navigation
+## 7. Fully Responsive And Custom UI
+## 8. User Search Functionality with `Firebase Query`
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+# App Demo
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![image](/app_Images/next-twitter.png)
+![image](/app_Images/next-twitter-2.png)
+![image](/app_Images/next-twitter-3.png)
+![image](/app_Images/next-twitter3.png)
+![image](/app_Images/next-twitter-5.png)
+![image](/app_Images/next-twitter-6.png)
