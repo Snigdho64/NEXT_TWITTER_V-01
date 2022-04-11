@@ -19,7 +19,7 @@ const SearchBar = () => {
           collection(db, 'users'),
           where('tag', '>=', key),
           where('tag', '<=', key + '\uf8ff'),
-          where('uuid', '!=', session?.user.uuid)
+          //   where('uuid', '!=', session?.user.uuid)
           //   where('name', '<=', keyword + '\uf8ff')
         )
       ).then((docs) => {
